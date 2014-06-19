@@ -1,3 +1,74 @@
+/*Background color*/
+body {
+   background-color: black;
+
+
+
+;
+}
+/*Title*/
+#title {
+color:#6200A3;
+font-family:impact;
+font-size: 90px ;
+letter-spacing:2px;
+text-shadow: 2px 2px #4E4E56;
+
+}
+
+/*Nav Bar*/
+nav {
+
+    color:#390072;
+    font-family:impact;
+    letter-spacing:2px;
+    font-weight: 1px;
+}
+
+#project-wrap .navbar {
+    background-color:black;
+    border-bottom: 2px  solid
+
+}
+a {
+    color:#6200A3;
+
+}
+a:link {
+  color: black;
+  
+  text-decoration: underline;
+}
+
+h1 {
+    color: #9C59DE;
+    font-family: impact;
+
+}
+
+h3 {
+    color: #6200A3;
+    font-family: impact;
+
+}
+/*
+div {
+    border: 1px solid black;
+ */
+
+ 
+}
+
+
+#meandjeff {
+    height: 200px;
+    width: 200px;
+
+
+}
+
+
+
 .polaroid {
 position: relative;
 background: #fff;
@@ -15,9 +86,32 @@ transform: rotate(-5deg);
 
 }
 
-#me1 {
+#portimage {
     height: 185px;
     width: 185px;
 
 
+}
+#blogimage {
+    height: 185px;
+    width: 185px;
+
+
+}
+#contactimage {
+    height: 185px;
+    width: 185px;
+
+
+}
+
+#me1 {
+  height: 300px;
+    width: 285px;
+
+
+}
+
+p{
+    text-align:left;
 }
