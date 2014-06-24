@@ -136,7 +136,7 @@ body {
 }
 
 #polaroid1{
-    height:185px;
+    height:200px;
     width:185px;
      display: inline;
   }
@@ -247,3 +247,19 @@ a{
     top: 2px;  
 }  
 
+/*protfolio page*/
+
+.media-object {
+    height:70px;
+    width: 70px;
+
+}
+.media-heading {
+    color:#9C59DE;
+}
+.media{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 1px;
+    }
+}
