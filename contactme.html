@@ -1,41 +1,69 @@
+<!DOCTYPE html>
 <html>
   <head>
     <!--Javascript-->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="upcode.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
+     <script src="upcode.js"></script>
     <!--bootstrap css -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="upcode.css">
+    <!--Contact button sheet-->
+    <link href="social-buttons.css" rel="stylesheet">
+
     <title>About Me Project</title>
   </head>
-  <body id='project-wrap'>
+    <body id='project-wrap'>
 
   <!--NAV BAR-->
    
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <ul class="nav nav-pills">
+                <li><a href="upcode.html">About Me</a></li>
+                <li><a href="portfolio.html">Projects</a><li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    <br/>
+    <br />
+   
+
+<!--title-->
         <div class="container-fluid">
-        <ul class="nav nav-pills">
-          <li><a href="upcode.html">About Me</a></li>
-          <li><a href="portfolio.html">Portfolio</a><li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contactme.html">Contact Me</a></li>
-        </ul>
-      </div>
-    </nav>
-    <br />
-    <br />
-    <br />
-
-    <!--title-->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 id="title">< CodeUP ></h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 id="title">< Code <span id="up">UP</span> ></h2>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
     <br />
-
-  </body>
-  </html>
+    <br/>
+    <br/>
+    <br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2><center>Contact Me<center></h2>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="button fb">  
+                        <a href="#"><img src="http://png-1.findicons.com/files/icons/2052/social_network/32/facebook.png" alt="">Like It</a>  
+                    </span>
+                    <span class="button twit">  
+                        <a href="#"><img src="http://png-4.findicons.com/files/icons/2192/flavour_extended/48/twitter_standing.png" alt="">Tweet It</a>  
+                    </span>
+                    <span class="button mail">  
+                        <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><img src="http://png-1.findicons.com/files/icons/1696/once/48/mail.png" alt="">Email</a>  
+                    </span>
+                 </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,117 +1,249 @@
-/*Background color*/
-body {
-   background-color: black;
+/* Body Background */
 
-
-
-;
+body { 
+  background: url(how-create-polaroid-gallery-css-and-jquery_904379.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-/*Title*/
+
+/* title */
 #title {
-color:#6200A3;
-font-family:impact;
-font-size: 90px ;
-letter-spacing:2px;
-text-shadow: 2px 2px #4E4E56;
-
+    color:white;
+    font-family: Josefin Slab;
+   font-weight:bold ;
+   position: left;
+   font-size: 50px;
 }
 
+#up {
+   /*color:#6200A3;*/
+   color:#6200A3;
+}
+   
 /*Nav Bar*/
 nav {
-
-    color:#390072;
-    font-family:impact;
+    color:#6200A3;
+    font-family:Josefin Slab;
     letter-spacing:2px;
     font-weight: 1px;
 }
 
 #project-wrap .navbar {
-    background-color:black;
+    background-color:white;
     border-bottom: 2px  solid
 
 }
+ 
+/*LINK COLORS*/
 a {
     color:#6200A3;
-
-}
-a:link {
-  color: black;
-  
-  text-decoration: underline;
+     text-decoration: underline;
 }
 
-h1 {
+
+/*HEADER: ABOUT ME AND TECHINICAL SKILLS COLOR AND FONT*/
+h1, h2, h3{
     color: #9C59DE;
-    font-family: impact;
-
+    font-family: Josefin Slab;
 }
 
-h3 {
-    color: #6200A3;
-    font-family: impact;
-
+/*: ABOUT ME AND TECHINICAL SKILLS COLOR AND FONT*/
+li, p, h5, footer {
+    color: #B8B8B8 ;
+    font-family:Josefin Slab;
 }
-/*
-div {
-    border: 1px solid black;
- */
+
 
  
+/*FIRST PICTURE*/
+ 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+  
+/*BACKGROUND IMAGE*/
+body {
+  background: url(how-create-polaroid-gallery-css-and-jquery_904379.jpg) no-repeat center center fixed;
+}
+ 
+.tilt {
+  border: 10px solid #fff;  
+  float: left;
+  height: 400px;
+  width: 600px;
+  margin: 20px;
+  overflow: hidden;
+   
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  
+}
+
+/*IMAGE OF ME THAT TILTS AND CHANGES TO BLACK AND WHITE*/
+
+/*TILT*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+/*B&W*/
+.tilt {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.tilt:hover {
+  -webkit-filter: grayscale(100%);
 }
 
 
-#meandjeff {
-    height: 200px;
-    width: 200px;
 
-
-}
-
-
-
+/*POLAROID*/
 .polaroid {
-position: relative;
-background: #fff;
-width: 200px;
-padding: 7px;
-margin: 10px;
-text-align: center; 
--moz-box-shadow: 1px 1px 3px #222;
--moz-transform: rotate(-5deg);
--webkit-box-shadow: 1px 1px 3px #222;
--webkit-transform: rotate(-5deg);
-box-shadow: 1px 1px 3px #222;
--o-transform: rotate(-5deg);
-transform: rotate(-5deg);
+
+    position: relative;
+    background:#fff;
+    width: 200px;padding: 7px;
+    margin: 10px;
+    text-align:center;
+    font-family: Josefin Slab;
+     color: #9C59DE;
+    -moz-box-shadow: 1px 1px 3px #222;
+    -moz-transform: rotate(-5deg);
+    -webkit-box-shadow: 1px 1px 3px #222;
+    -webkit-transform: rotate(-5deg);
+    box-shadow: 1px 1px 3px #222;
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+#polaroid1{
+    height:185px;
+    width:185px;
+     display: inline;
+  }
+
+#polaroid2{
+    height:185px;
+    width:185px;
+     display: inline;
+}
+#polaroid3{
+    height:185px;
+    width:185px;
+     display: inline;
+ }
+
+/*BLUR*/
+.polaroid {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.polaroid:hover {
+  -webkit-filter: blur(5px);
+}
+
+.facts {
+    position: center;
+}
+
+
+/*CONTACT PAGE BUTTONS */
+body {
+    background: url(how-create-polaroid-gallery-css-and-jquery_904379.jpg) no-repeat center center fixed;
+}
+
+a{  
+    text-decoration: none;  
+    color:#333333;  
+}  
+  
+.container{  
+    width: 420px;  
+    margin: 50px auto 50px; /* buttons pushed from the top by 10% */  
+}  
+
+.button{  
+    margin: 8px;  
+}  
+
+.button a{  
+    font-family: arial, sans-serif;
+    font-size: 13px;  
+    color: #777;
+    text-shadow: 1px 1px 0px white;
+    background: #ffffff; /* Old browsers */  
+    background: -moz-linear-gradient(top, #ffffff 0%, #dfdfdf 100%); /* FF3.6+ */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dfdfdf)); /* Chrome,Safari4+ */  
+    background: -webkit-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* Chrome10+,Safari5.1+ */  
+    background: -o-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* Opera11.10+ */  
+    background: -ms-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* IE10+ */  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf',GradientType=0 ); /* IE6-9 */  
+    background: linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* W3C */  
+    -moz-border-radius: 3px;  
+    -webkit-border-radius: 3px;  
+    border-radius: 3px;  
+    -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4);  
+    padding: 6px 12px;  
+}  
+
+.button a:hover{  
+    background: #ffffff; /* Old browsers */  
+    background: -moz-linear-gradient(top, #ffffff 0%, #eee 100%); /* FF3.6+ */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eee)); /* Chrome,Safari4+ */  
+    background: -webkit-linear-gradient(top, #ffffff 0%,#eee 100%); /* Chrome10+,Safari5.1+ */  
+    background: -o-linear-gradient(top, #ffffff 0%,#eee 100%); /* Opera11.10+ */  
+    background: -ms-linear-gradient(top, #ffffff 0%,#eee 100%); /* IE10+ */  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eee',GradientType=0 ); /* IE6-9 */  
+    background: linear-gradient(top, #ffffff 0%,#eee 100%); /* W3C */  
+    -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4);  
+}  
+
+.button a:active{  
+    background: #dfdfdf; /* Old browsers */  
+    background: -moz-linear-gradient(top, #dfdfdf 0%, #f1f1f1 100%); /* FF3.6+ */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfdfdf), color-stop(100%,#f1f1f1)); /* Chrome,Safari4+ */  
+    background: -webkit-linear-gradient(top, #dfdfdf 0%,#f1f1f1 100%); /* Chrome10+,Safari5.1+ */  
+    background: -o-linear-gradient(top, #dfdfdf 0%,#f1f1f1 100%); /* Opera11.10+ */  
+    background: -ms-linear-gradient(top, #dfdfdf 0%,#f1f1f1 100%); /* IE10+ */  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfdf', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */  
+    background: linear-gradient(top, #dfdfdf 0%,#f1f1f1 100%); /* W3C */  
+
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2) inset, 0px 1px 1px 0 rgba(255,255,255,1);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2) inset, 0px 1px 1px 0 rgba(255,255,255,1);  
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2) inset, 0px 1px 1px 0 rgba(255,255,255,1);  
 
 }
 
-#portimage {
-    height: 185px;
-    width: 185px;
+.button a > img{  
+    padding-right: 8px;  
+    position: relative;  
+    top: 2px;  
+}  
 
-
-}
-#blogimage {
-    height: 185px;
-    width: 185px;
-
-
-}
-#contactimage {
-    height: 185px;
-    width: 185px;
-
-
-}
-
-#me1 {
-  height: 300px;
-    width: 285px;
-
-
-}
-
-p{
-    text-align:left;
-}
