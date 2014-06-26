@@ -8,6 +8,12 @@ body {
   background-size: cover;
 }
 
+body {
+    margin:;
+    padding:
+    ;
+}
+
 /* title */
 #title {
     color:white;
@@ -29,7 +35,7 @@ nav {
     letter-spacing:2px;
     font-weight: 1px;
 }
-
+/* NAB BAR COLOR and BORDER*/
 #project-wrap .navbar {
     background-color:white;
     border-bottom: 2px  solid
@@ -134,7 +140,7 @@ body {
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
 }
-
+/*InDVIDUAL POLARODI PICTURES WITH IDs*/
 #polaroid1{
     height:200px;
     width:185px;
@@ -254,9 +260,11 @@ a{
     width: 74px;
 
 }
+/* heading color text*/
 .media-heading {
     color:#9C59DE;
 }
+/* bar height and width*/
 .media{
     padding: 20px;
     margin: 20px;
@@ -278,6 +286,4 @@ a{
     color:white;
      font-family: Josefin Slab;
      text-align: center;
-   
-
 }
