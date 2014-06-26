@@ -263,3 +263,21 @@ a{
     border-radius: 1px;
     }
 }
+
+.carousel-inner{
+    height:500px;
+    width:500px;
+}
+.panel-title{
+     color:#9C59DE;
+
+
+}
+.panel-heading {
+    background: url(how-create-polaroid-gallery-css-and-jquery_904379.jpg) no-repeat center center fixed;
+    color:white;
+     font-family: Josefin Slab;
+     text-align: center;
+   
+
+}
