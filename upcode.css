@@ -9,10 +9,39 @@ body {
 }
 
 body {
-    margin:;
-    padding:
-    ;
+    margin:0px;
+    padding: 0px;
+    
+  }
+
+ .slideshow {
+    height:375px;
+    width:500px ;
+    position: center;
+  }
+
+
+#sf3 {
+ 
+  height: 400px;
+  width: 1150px;
+  opacity: 0.5;
 }
+#sf2 {
+
+  height: 400px;
+  width: 1700px;
+  opacity: 0.5;
+  position: relative;
+  margin:0px;
+  padding:0px;
+
+
+}
+.aboutme {
+  position: center;
+}
+
 
 /* title */
 #title {
